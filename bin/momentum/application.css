@@ -1,0 +1,43 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+BorderPane{
+	-fx-background-color: lightblue;
+}
+
+MenuBar{
+	-fx-background-color:aliceblue;
+}
+
+Label{
+	-fx-font-size:1.3em; 
+}
+
+#hiddenButton{
+	-fx-background-color:transparent;
+}
+
+/* Color gradient reference:
+ * https://www.youtube.com/watch?v=t2XCZ78C1yc
+ */
+.MassDialog{
+	-fx-background-color:linear-gradient(to right, red, yellow); 
+}
+
+.VelocityDialog{
+	-fx-background-color:linear-gradient(to right, yellow, red); 
+}
+
+.NotANumberDialog{
+	/*-fx-background-color:linear-gradient(to top, yellow, red); */
+	/*-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray); */
+	-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray);
+}
+
+.NotANumberDialog .label.content{
+    -fx-font-size: 18px;
+    -fx-text-fill: darkred;
+    -fx-font-weight: bold;
+}
+
+.NotANumberDialog .button{
+	-fx-background-color: darkviolet; 
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="momentum.MomentumInelasticCollisionController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#openCSV" text="Open CSV" />
+                  <MenuItem mnemonicParsing="false" onAction="#saveToCSV" text="Save to CSV" />
+              <MenuItem mnemonicParsing="false" onAction="#closeApp" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#aboutApp" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <Pane prefHeight="475.0" prefWidth="639.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" prefHeight="113.0" prefWidth="651.0" text="This program solves for the unknown values using the principle of conservation of momentum in an ineleastic collision as expressed by: (m1 + m2)Vfinal = m1Voriginal + m2Voriginal. Mass is in kilograms, velocity m/s. At least two of the three values for mass and two of the three values for velocity must be entered. Leave unknowns blank." wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </Label>
+            <Label layoutX="57.0" layoutY="140.0" text="Mass 1 (kg):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="196.0" text="Mass 2 (kg):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="30.0" layoutY="263.0" text="Total Mass (kg):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="360.0" layoutY="140.0" prefHeight="25.0" prefWidth="117.0" text="Velocity 1 (m/s):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="362.0" layoutY="196.0" text="Velocity 2 (m/s):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="340.0" layoutY="263.0" text="Final Velocity (m/s):">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <TextField fx:id="massOneTxtFld" layoutX="147.0" layoutY="135.0" prefHeight="35.0" prefWidth="164.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="massTwoTxtFld" layoutX="147.0" layoutY="191.0" prefHeight="35.0" prefWidth="163.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="massTotalTxtFld" layoutX="147.0" layoutY="258.0" prefHeight="35.0" prefWidth="163.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="velocityOneTxtFld" layoutX="486.0" layoutY="135.0" prefHeight="35.0" prefWidth="163.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="velocityTwoTxtFld" layoutX="487.0" layoutY="191.0" prefHeight="35.0" prefWidth="163.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="velocityFinalTxtFld" layoutX="487.0" layoutY="253.0" prefHeight="35.0" prefWidth="163.0">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <Button alignment="CENTER" layoutX="280.0" layoutY="334.0" mnemonicParsing="false" onAction="#findUnknown" prefHeight="72.0" prefWidth="96.0" text="Find Unknowns" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button id="hiddenButton" layoutX="555.0" layoutY="442.0" mnemonicParsing="false" onAction="#hiddenButton" prefHeight="25.0" prefWidth="119.0" stylesheets="@application.css" text="Hidden Button" textAlignment="CENTER" textFill="TRANSPARENT" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
