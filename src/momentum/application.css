@@ -48,7 +48,7 @@ Label{
  * within a container.
  */
 .NotANumberDialog .label.content{
-    -fx-font-size: 18px;
+    -fx-font-size: 16px;
     -fx-text-fill: darkred;
     -fx-font-weight: bold;
 }
