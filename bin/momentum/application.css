@@ -11,12 +11,23 @@ Label{
 	-fx-font-size:1.3em; 
 }
 
+/* The following ID was set using SceneBuilder under properties for 
+ * for the Hidden Button.
+ */
 #hiddenButton{
 	-fx-background-color:transparent;
 }
 
 /* Color gradient reference:
  * https://www.youtube.com/watch?v=t2XCZ78C1yc
+ * 
+ * The CSS classes were set in Java in the controller for the GUI 
+ * in the appropriate methods after assigning container to a DialogPane. 
+ * NOTE: DialogPane had to be global in scope for the controller class 
+ * to have access to the GUI's stylesheet.
+ *   
+ * The method used was:
+ * dialogPane.getStyleClass().add("MassDialog"); 
  */
 .MassDialog{
 	-fx-background-color:linear-gradient(to right, red, yellow); 
@@ -29,15 +40,19 @@ Label{
 .NotANumberDialog{
 	/*-fx-background-color:linear-gradient(to top, yellow, red); */
 	/*-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray); */
-	-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray);
+	/*-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray); */
+	-fx-background-color:linear-gradient(to bottom, yellow, red); 
 }
 
+/* The following class and subclass is an example of accessing CSS for elements
+ * within a container.
+ */
 .NotANumberDialog .label.content{
     -fx-font-size: 18px;
     -fx-text-fill: darkred;
     -fx-font-weight: bold;
 }
-
+/* Changed button color */
 .NotANumberDialog .button{
-	-fx-background-color: darkviolet; 
+	-fx-background-color: slategray;
 }
