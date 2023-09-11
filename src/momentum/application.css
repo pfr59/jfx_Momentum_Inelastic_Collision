@@ -40,7 +40,8 @@ Label{
 .NotANumberDialog{
 	/*-fx-background-color:linear-gradient(to top, yellow, red); */
 	/*-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray); */
-	-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray);
+	/*-fx-background-color:radial-gradient(focus-angle 90deg, focus-distance 20%, center 50% 50%, radius 10%, reflect, gray, darkgray 75%, dimgray); */
+	-fx-background-color:linear-gradient(to bottom, yellow, red); 
 }
 
 /* The following class and subclass is an example of accessing CSS for elements
@@ -51,7 +52,7 @@ Label{
     -fx-text-fill: darkred;
     -fx-font-weight: bold;
 }
-
+/* Changed button color */
 .NotANumberDialog .button{
-	-fx-background-color: darkviolet; 
+	-fx-background-color: slategray;
 }
