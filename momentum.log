@@ -1,68 +1,42 @@
-Sep 11, 2023 1:39:26 PM momentum.MyProgramLogger <init>
+Sep 11, 2023 8:01:06 PM momentum.MyProgramLogger <init>
 INFO: Log Level set to: INFO
-Sep 11, 2023 1:39:26 PM momentum.MyProgramLogger <init>
+Sep 11, 2023 8:01:06 PM momentum.MyProgramLogger <init>
 INFO: File Handler Set.
-Sep 11, 2023 1:39:26 PM momentum.Main start
+Sep 11, 2023 8:01:06 PM momentum.Main start
 INFO: Main Class executed.
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController findUnknown
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController findUnknown
 INFO: findUnknown() entered.
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController checkForTooManyInputs
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController checkForTooManyInputs
 INFO: checkForTooManyInputs() entered.
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController threeEntryChk
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController threeEntryChk
 INFO: threeEntryChk(TextField txtFldOne, TextField txtFldTwo, TextField txtFldThree, String strMassOrVel )
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: public static boolean isBlank(String strNum) strNum: fdas
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
+INFO: public static boolean isBlank(String strNum) strNum: fdsa
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
 INFO: isBlank(String strNum): FALSE
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
 INFO: public static boolean isBlank(String strNum) strNum: 
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
 INFO: isBlank(String strNum): TRUE
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController threeEntryChk
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController threeEntryChk
 INFO: threeEntryChk(TextField txtFldOne, TextField txtFldTwo, TextField txtFldThree, String strMassOrVel )
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
 INFO: public static boolean isBlank(String strNum) strNum: 
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isBlank
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isBlank
 INFO: isBlank(String strNum): TRUE
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController readInputs
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController readInputs
 INFO: readInputs() entered.
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:30 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:22 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) is FALSE.
-Sep 11, 2023 1:39:34 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:24 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:34 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:24 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:34 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:24 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:34 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:24 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:34 PM momentum.MomentumInelasticCollisionController isNumeric
+Sep 11, 2023 8:01:24 PM momentum.MomentumInelasticCollisionController isNumeric
 INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController findUnknown
-INFO: findUnknown() entered.
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController checkForTooManyInputs
-INFO: checkForTooManyInputs() entered.
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController threeEntryChk
-INFO: threeEntryChk(TextField txtFldOne, TextField txtFldTwo, TextField txtFldThree, String strMassOrVel )
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: public static boolean isBlank(String strNum) strNum: fdas
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: isBlank(String strNum): FALSE
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: public static boolean isBlank(String strNum) strNum: 
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: isBlank(String strNum): TRUE
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController threeEntryChk
-INFO: threeEntryChk(TextField txtFldOne, TextField txtFldTwo, TextField txtFldThree, String strMassOrVel )
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: public static boolean isBlank(String strNum) strNum: 
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isBlank
-INFO: isBlank(String strNum): TRUE
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController readInputs
-INFO: readInputs() entered.
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isNumeric
-INFO: public static boolean isNumeric(String strNum) entered.
-Sep 11, 2023 1:39:41 PM momentum.MomentumInelasticCollisionController isNumeric
-INFO: public static boolean isNumeric(String strNum) is FALSE.
